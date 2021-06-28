@@ -21,8 +21,8 @@ namespace Assignment25jun
             Program Obj5 = new Program();
             Obj5.A5();
 
-            //Program Obj6 = new Program();
-            //Obj6.A6();
+            Program Obj6 = new Program();
+            Obj6.A6();
 
         }
 
@@ -129,20 +129,20 @@ namespace Assignment25jun
             }
         }
 
-        //public void A6()
-        //{
-        //    string firstword;
-        //    Console.Write("Input a string : ");
-        //    firstword = Console.ReadLine();
+        public void A6()
+        {
+          string firstword;
+           Console.Write("Input a string : ");
+           firstword = Console.ReadLine();
 
-        //    if (firstword.Length == 5 && firstword.Equals("Hello"))
-        //    {
-        //        Console.WriteLine("true" + " " + "String starts with a specified word Hello");
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine(" string doesnt match word is" + " " + firstword);
-        //    }
+          if (firstword.Length == 5 && firstword.Equals("Hello"))
+           {
+                Console.WriteLine("true" + " " + "String starts with a specified word Hello");
+           }
+           else
+           {
+               Console.WriteLine(" string doesnt match word is" + " " + firstword);
+           }
         }
     }
 }
