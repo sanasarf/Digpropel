@@ -29,15 +29,15 @@ namespace Assignment25jun
         public void A1()
         {
             Console.WriteLine("Enter number 1 :");
-            int number1 = Convert.ToInt32(Console.ReadLine());
+            int num1 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter number 2 :");
-            int number2 = Convert.ToInt32(Console.ReadLine());
+            int num2 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter number 3 :");
-            int number3 = Convert.ToInt32(Console.ReadLine());
+            int num3 = Convert.ToInt32(Console.ReadLine());
 
-            int result = number1 * number2 * number3;
+            int result = num1 * num2 * num3;
             Console.WriteLine(result);
         }
 
@@ -107,10 +107,10 @@ namespace Assignment25jun
 
         public void A5()
         {
-            Console.WriteLine("Input 1st number:");
+            Console.WriteLine("Enter 1st number:");
             int x = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Input 2nd number:");
+            Console.WriteLine("Enter 2nd number:");
             int y = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("if two values are equal return thrive the sum:");
@@ -120,6 +120,7 @@ namespace Assignment25jun
             if (x == y)
             {
                 Console.WriteLine((result) * (result) * (result));
+                //Console.WriteLine(3*result);
 
             }
             else
